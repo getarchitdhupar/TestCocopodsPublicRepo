@@ -158,7 +158,7 @@ tasks.create<Zip>("packageDistribution") {
     // Replace XCFramework File at root from Build Directory
     copy {
         from("$buildDir/XCFrameworks/release")
-        into("$rootDir/shared")
+        into("$rootDir")
     }
 
     // Delete existing ZIP, if any
