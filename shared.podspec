@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
     spec.license                  = 'https://opensource.org/licenses/Apache-2.0'
     spec.summary                  = 'This is the description of framework example.'
 
-    spec.vendored_frameworks      = "sharedModule.xcframework"
+    spec.vendored_frameworks      = "shared.xcframework"
 
     spec.ios.deployment_target = '15.0'
 
