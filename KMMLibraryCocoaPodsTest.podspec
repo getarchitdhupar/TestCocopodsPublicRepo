@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'KMMLibraryCocoaPodsTest'
-    spec.version       = "3.0"
+    spec.version       = "4.0"
     spec.homepage                 = 'http://google.com'
     spec.source = { :git => "https://github.com/getarchitdhupar/TestCocopodsPublicRepo.git", :tag => "#{spec.version}" }
     spec.authors                  = 'getarchit.dhupar@gmail.com'
