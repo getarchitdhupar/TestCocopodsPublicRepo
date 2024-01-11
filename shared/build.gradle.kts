@@ -157,7 +157,7 @@ tasks.create<Zip>("packageDistribution") {
 
     // Replace XCFramework File at root from Build Directory
     copy {
-        from("$buildDir/XCFrameworks/release/shared.xcframework/ios-arm64_x86_64-simulator")
+        from("$buildDir/XCFrameworks/release")
         into("$rootDir")
     }
 
