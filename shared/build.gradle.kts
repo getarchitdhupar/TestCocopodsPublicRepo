@@ -61,7 +61,7 @@ tasks.register("prepareReleaseOfiOSXCFramework") {
     description = "Publish iOS framework to the Cocoa Repo"
 
     // Create Release Framework for Xcode
-    dependsOn("assembleXCFramework", "packageDistribution")
+    dependsOn("assembleSharedReleaseXCFramework", "packageDistribution")
 
 //    doLast {
 //
