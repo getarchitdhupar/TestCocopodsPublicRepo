@@ -6,4 +6,8 @@ public class Greeting {
     public fun greet(): String {
         return "Hello, ${platform.name}!"
     }
+
+    public fun feb17greet(): String {
+        return "Hello, ${platform.name}!"
+    }
 }
